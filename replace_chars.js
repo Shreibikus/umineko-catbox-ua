@@ -69,7 +69,9 @@ const intlCharacters = [ // List all of your language's non-Latin chars here.
   'щ',
   'ь',
   'ю',
-  'я'
+  'я',
+  '«',
+  '»'
 ]
 
 let script = fs.readFileSync('script.rb', 'utf-8')
