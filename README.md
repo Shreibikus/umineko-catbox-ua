@@ -1,41 +1,10 @@
-This project is dedicated, in its entirety, to my beloved Tara.
+Українська локалізація Nintendo-версії «Коли плачуть чайки»
 
-Reading Umineko together, with this patch, while it was still being worked on,
-was one of my best -- and, tragically, last -- memories with her. It is a memory I will treasure forever.
+# Український патч для «Коли плачуть чайки»
 
-My original decision was to preserve everything about that experience, as perfectly as possible.
-That included the imperfections of the patch, the various minor text issues here and there.
+## Автори
 
-This decision still stands, in part. However, I also now realise that she wouldn't want our hard work to be abandoned in an unfinished state,
-that she would want others to experience a truly "perfect" version of this incredible story.
-
-So I shall do both. The [master](https://github.com/andOlga/umineko-catbox-english/tree/master) branch is left as-is, untouched, at the day of her passing, save for this notice at the top.
-The release that most closely corresponds to this state is [v9.9.99999](https://github.com/andOlga/umineko-catbox-english/releases/tag/v9.9.99999).
-
-The finished, perfect version of the patch is sourced from the [rebirth](https://github.com/andOlga/umineko-catbox-english/tree/rebirth) branch, and the release that corresponds to it is [v82.7.2](https://github.com/andOlga/umineko-catbox-english/releases/tag/v82.7.2).
-
-Rest in peace, Tara.
-
-And may you live on in everyone's hearts, for all eternity.
-May your name be forever engraved on the cold steel of the Web.
-May its sound endlessly permeate its cables and frequencies.
-
-I love you, my heart.
-
----
-
-Note: the **canonical link** for this project is [https://andolga.github.io/umineko-catbox-english](https://andolga.github.io/umineko-catbox-english). If you wish to link to this project, please use this link.
-However, you are free -- in fact, *encouraged* -- to re-host/mirror the downloads for the project on alternate sources, as long as you backlink to the canonical URL.
-
-Note 2: the project is **finished**. It provides a fully English-translated experience with the game. No further work is necessary or will be done on it.
-
-# English patch for Umineko Catbox
-
-This is an English patch for Umineko When They Cry: The Symphony of Catbox and Dreams.
-
-This patch is meant to be used on the **actual console release of the game**. It is ***not* a standalone application**.
-
-## Credits
+Відповідальні за англійську версію, без якої б не було й української.
 
 Besides me, the following people have *directly* contributed to this project:
 - My beloved heart, Tara, who was the brightest star that ever shone in my life. Rest in peace, my love.
@@ -117,14 +86,6 @@ If you want to play the game on your console, it will need Atmosphère installed
 If you don't have Atmosphère already, please see if it's compatible with your console model and install it if it is.
 Afterwards, [download](https://github.com/andOlga/umineko-catbox-english/releases/latest/download/patch_atmos.zip) the Atmosphère version of the patch and copy it to the "atmosphere" folder on your SD card.
 The next time the game starts, it should be in English.
-
-## Alternative translations
-
-There is a fair number of [translations of Umineko to other languages](https://github.com/andOlga/umineko-catbox-english/forks) that are based on this patch.
-
-**Note that these are completely unrelated to me. I cannot guarantee their accuracy or even basic functionality. I will not help you get these working, nor will I answer any questions about them.**
-
-If you wish to create your own fan translation, please check the documentation [here](https://github.com/andOlga/umineko-catbox-english/blob/rebirth/CONTRIBUTING.md). **I will most likely not be able to provide any assistance beyond what's written in these docs.**
 
 ## Support/Contact
 
