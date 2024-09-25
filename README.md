@@ -11,7 +11,7 @@
 Відповідальні за англійську версію, без якої б не було й української.
 
 - [@andOlga](https://github.com/andOlga), main contributor of this project.
-- andOlga's beloved heart, Tara, who was the brightest star that ever shone in my life. Rest in peace, my love.
+- andOlga's beloved heart, Tara, who was the brightest star that ever shone in her life.
 - [@DoctorDiablo](https://github.com/doctordiablo), translating the Witch Hunter's Interview Tape story.
 - [@silverwolf-waltz](https://github.com/silverwolf-waltz), helping port over the translations for Hane and Saku.
 - [@Quplet](https://github.com/quplet), providing help with porting some of the main episodes.
