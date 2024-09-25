@@ -4,9 +4,13 @@
 
 ## Автори
 
+Керівник команди та головний перекладач — Shreibikus
+Робота з графікою — Lisper
+Допомога з перекладом — adncoach і up3rifania
+
 Відповідальні за англійську версію, без якої б не було й української.
 
-Besides me, the following people have *directly* contributed to this project:
+- [@andOlga](https://github.com/andOlga), main contributor of this project.
 - My beloved heart, Tara, who was the brightest star that ever shone in my life. Rest in peace, my love.
 - [@DoctorDiablo](https://github.com/doctordiablo), translating the Witch Hunter's Interview Tape story.
 - [@silverwolf-waltz](https://github.com/silverwolf-waltz), helping port over the translations for Hane and Saku.
@@ -14,7 +18,7 @@ Besides me, the following people have *directly* contributed to this project:
 - [@DerJaybe](https://github.com/DerJaybe), helping with translating images and creating the project logo.
 - [LHCollider](https://www.youtube.com/@LHCollider), helping with testing.
 
-Furthermore, this patch would be impossible without the resources and tools provided by the the following projects:
+Інструменти та ресурси, без яких би не було цього проекту:
 
 - [kaleido](https://gitlab.com/Neurochitin/kaleido/-/tree/saku/) by Neurochitin, which can decompile and recompile the SNR script format used by the game, as well as generate the `patch.rom` files that can be used to replace files in the base game.
 - [enter_extractor](https://github.com/07th-mod/enter_extractor) by TellowKrinkle, which can extract files from the base game's `data.rom` format, as well as generate `pic` and `txa` files used to store the game's images.
@@ -29,25 +33,15 @@ Furthermore, this patch would be impossible without the resources and tools prov
   - There are also a few various versions of Umineko native to PC. How good they are varies depending on the version you dig up, but none of them properly support the creators, none of them are compatible with this patch, and all of them have various missing content compared to the console release of the game.
     - This includes the Steam version, as it is a re-release of the old indie version of Umineko, and as such does not include any of the console version's improvements. Because of this, buying this release does not help support the creators of the console version in any way, though it *does* help support the author and the original creator of the series, Ryukishi07. The Steam version is also not compatible with this patch.
 
-## Applying the patch
+## Нанесення патчу
 
-The game, and this patch, can be played in a few ways:
-- On PCs, using yuzu or Ryujinx
-- On Macs, using Ryujinx
-- On select Android devices, using yuzu
-- On CFW-capable consoles, using Atmosphère
+Ninendo-версію можна грати декількома способами:
+- На ПК за допомогою емуляторів yuzu чи Ryujinx
+- На Mac за допомогою Ryujinx
+- На деяких пристроях Android за допомогою yuzu
+- На Nintendo з прошивкою CFW за допомогою Atmosphère
 
-Additionally, promising future developments exist for the game. These do not currently work, but likely will in the future:
-- An ENTERGRAM engine source port, shin.
-
-Please follow the below instructions to get the patch set up.
-
-No matter the platform you play on, you will need a copy of the base game and the decryption keys for it.
-Game updates are optional, the patch applies cleanly regardless of the game's version.
-
-To comply with US laws, you have to [buy the game](https://google.com/search?q=うみねこのなく頃に咲～猫箱と夢想の交響曲～) and dump it using nxdumptool from a CFW-capable console to obtain a legal copy for emulation. Software distribution laws in other countries may vary.
-
-### On PC (using yuzu)
+### На ПК (yuzu)
 yuzu is compatible with the game and the patch.
 
 To set yuzu up, you will need a copy of your encryption keys dumped from a CFW-capable console, and the game itself. Once you have acquired the keys, navigate to File -> Open yuzu folder, then find the subfolder called "keys" inside that and paste the file there. Restart yuzu and double-click the giant empty rectangle in the main yuzu window to add your game folder.
@@ -57,7 +51,7 @@ To install the patch, [download](https://github.com/andOlga/umineko-catbox-engli
 
 You may now start the game in yuzu and play it in English.
 
-### On PC/Mac (using Ryujinx)
+### На PC/Mac (Ryujinx)
 Ryujinx is compatible with the game and the patch.
 
 To set Ryujinx up, you will need a copy of your encryption keys dumped from a CFW-capable console as well as that console's firmware, and the game itself. Having acquired these, you may follow their Guide to finish your configuration and add the game to Ryujinx, but please ignore the "Managing mods" section as this patch has a somewhat more complicated structure and cannot be simply added to a per-game folder like they recommend.
@@ -67,7 +61,7 @@ To install the patch, [download](https://github.com/andOlga/umineko-catbox-engli
 
 You may now start the game in Ryujinx and play it in English.
 
-### On Android (using yuzu)
+### На Android (yuzu)
 Some Android devices may be able to run the game using yuzu's Android port, though the current system requirements are rather high by Android standards: the device has to have a Snapdragon CPU and at least 8GB of RAM.
 
 Just like on PC, you will need a copy of your encryption keys. yuzu will ask you for their location on its first run. It will also ask you to specify the folder in which the game is located. For performance reasons, I recommend not putting the game on an SD card unless you absolutely have to, keep it in your internal storage.
@@ -80,13 +74,9 @@ Now return to yuzu, and in the settings menu tap "Open yuzu folder". Pull out th
 
 The next time you start the game, it will be in English.
 
-### On the actual hardware
+### На Nintendo
 
 If you want to play the game on your console, it will need Atmosphère installed on it.
 If you don't have Atmosphère already, please see if it's compatible with your console model and install it if it is.
 Afterwards, [download](https://github.com/andOlga/umineko-catbox-english/releases/latest/download/patch_atmos.zip) the Atmosphère version of the patch and copy it to the "atmosphere" folder on your SD card.
 The next time the game starts, it should be in English.
-
-## Support/Contact
-
-I no longer provide any support for this project. If you cannot figure out how to follow the instructions, ask people in the community. Unless you know me personally, do not attempt to contact me about any issues relating to this project. You will be blocked without a reply.
