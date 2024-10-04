@@ -5,7 +5,7 @@
 ## Автори
 
 - Керівник проекту та головний перекладач — Shreibikus
-- Робота з графікою — Lisper
+- Робота з графікою (1 епізод) — Lisper
 - Допомога з перекладом (1 епізод) — adncoach і up3rifania
 
 ## Нанесення патчу
@@ -17,24 +17,12 @@ Ninendo-версію можна грати декількома способам
 - На Nintendo з прошивкою CFW за допомогою Atmosphère
 
 ### На ПК (yuzu)
-yuzu is compatible with the game and the patch.
-
-To set yuzu up, you will need a copy of your encryption keys dumped from a CFW-capable console, and the game itself. Once you have acquired the keys, navigate to File -> Open yuzu folder, then find the subfolder called "keys" inside that and paste the file there. Restart yuzu and double-click the giant empty rectangle in the main yuzu window to add your game folder.
-
-To install the patch, [download](https://github.com/andOlga/umineko-catbox-english/releases/latest/download/patch_yuzu.zip) the yuzu version,
-<br>then right-click the game in yuzu, choose "Open Mod Data Location" and extract the entire archive there.
-
-You may now start the game in yuzu and play it in English.
+1. Налаштуйте Yuzu
+2. Установіть патч Yuzu в папку mods
 
 ### На PC/Mac (Ryujinx)
-Ryujinx is compatible with the game and the patch.
-
-To set Ryujinx up, you will need a copy of your encryption keys dumped from a CFW-capable console as well as that console's firmware, and the game itself. Having acquired these, you may follow their Guide to finish your configuration and add the game to Ryujinx, but please ignore the "Managing mods" section as this patch has a somewhat more complicated structure and cannot be simply added to a per-game folder like they recommend.
-
-To install the patch, [download](https://github.com/andOlga/umineko-catbox-english/releases/latest/download/patch_atmos.zip) the Atmosphère version (Ryujinx is 100% Atmosphère-compatible),
-<br>then choose File -> Open Ryujinx Folder. Navigate to the "mods" directory and extract the entire archive to that location. If the "mods" directory does not exist, create it first.
-
-You may now start the game in Ryujinx and play it in English.
+1. Налаштуйте Ryujinx
+2. Установіть патч Atmos в папку mods
 
 ### На Android (yuzu)
 Some Android devices may be able to run the game using yuzu's Android port, though the current system requirements are rather high by Android standards: the device has to have a Snapdragon CPU and at least 8GB of RAM.
@@ -50,11 +38,8 @@ Now return to yuzu, and in the settings menu tap "Open yuzu folder". Pull out th
 The next time you start the game, it will be in English.
 
 ### На Nintendo
-
-If you want to play the game on your console, it will need Atmosphère installed on it.
-If you don't have Atmosphère already, please see if it's compatible with your console model and install it if it is.
-Afterwards, [download](https://github.com/andOlga/umineko-catbox-english/releases/latest/download/patch_atmos.zip) the Atmosphère version of the patch and copy it to the "atmosphere" folder on your SD card.
-The next time the game starts, it should be in English.
+1. Налаштуйте Atmosphère
+2. Установіть патч Atmos в папку atmosphere
 
 ### Відповідальні за англійську версію, без якої б не було й української.
 
